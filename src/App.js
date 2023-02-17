@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+// import Demo from './Demo';
+import Car from './Function2';
+import Fun from './Function';
+import Fun3 from './Function3';
+import Incdec from './IncDec';
+import ClassIncDec from './IncDecFun';
+
 
 function App() {
   return (
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    {<Fun/>}
+    <Incdec/>
+    <ClassIncDec/>
+    {<Fun3/>}
     </div>
   );
 }
